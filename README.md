@@ -1,5 +1,3 @@
-Sure, here is the formatted Markdown version of the NotionS.js script prerequisites, installation, usage, authentication, and license:
-
 ## Prerequisites
 
 Before you can use the NotionS.js script, you'll need to do the following:
@@ -26,7 +24,7 @@ To use the notion2git.js script, you'll need to provide two arguments:
 You can run the script using the following command:
 
 ```
-node NotionS.js <pageId> <fileName>
+node notion2git.js <pageId> <fileName>
 ```
 
 Replace `<pageId>` with the actual ID of the Notion page you want to upload, and `<fileName>` with the name of the file you want to create on the GitHub repository (without the .md extension).
@@ -34,7 +32,7 @@ Replace `<pageId>` with the actual ID of the Notion page you want to upload, and
 For example, if you want to convert a Notion page with ID `1fdb8589cdbd4fd28d7be97bbd1ab381` to Markdown and create a file named `MyFile.md` on the GitHub repository, you can run the following command:
 
 ```
-node NotionS.js 1fdb8589cdbd4fd28d7be97bbd1ab381 MyFile
+node notion2git.js 1fdb8589cdbd4fd28d7be97bbd1ab381 MyFile
 ```
 
 The script will convert the content from the Notion page to Markdown format, create a new file named `MyFile.md` on the GitHub repository, and upload the Markdown content to the file.
